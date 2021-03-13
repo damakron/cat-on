@@ -870,10 +870,7 @@ img {
 
 /* smartphone */
 @media only screen and (max-width: 787px) {
-	
-	.sticky {
-		display: none;
-	}
+
 	/* header */
 
 	.header-cat {
