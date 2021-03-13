@@ -190,7 +190,7 @@ img {
 	background: #15d160;
 	text-align: center;
 	border-radius: 6px 6px 6px 6px;
-	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 /* Necessário para centralizar as imagens */
@@ -234,7 +234,7 @@ img {
 	margin-top: 40px;
 	margin-bottom: 60px;
 	border-radius: 6px;
-	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 	
 }
 
@@ -394,8 +394,8 @@ img {
 .cards li {
 	height: 180px;
 	background: #F2E9E9;
-	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 	border-radius: 6px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 	padding: 20px;
 }
 
@@ -1047,28 +1047,46 @@ img {
 
 /* JAVASCRIPT */
 
+/* 5 Adicione o CSS Essencial abaixo */
 [data-slide] {
 	position: relative;
   }
-  
-[data-slide] > * {
+  [data-slide] > * {
 	position: absolute;
 	top: 0px;
 	opacity: 0;
   }
-  
-[data-slide] > .active {
+  [data-slide] > .active {
 	position: relative;
 	opacity: 1;
 	transition: opacity 500ms;
+	z-index: 1;
   }
   
-[data-slide-nav] {
-    display: block;
+  /* 6 CSS recomendado para a navegação */
+  [data-slide-nav] {
+	display: block;
+	justify-content: center;
 	text-align: center;
 	margin-top: 20px;
   }
-  
-
+  [data-slide-nav] > button {
+	display: inline-block;
+	width: 12px;
+	margin: 4px;
+	height: 12px;
+	border: none;
+	padding: 0px;
+	margin-top: 30px;
+	border-radius: 6px;
+	background: #1d1d1d;
+	text-indent: -100px;
+	overflow: hidden;
+	outline: none;
+  }
+  [data-slide-nav] > button.active {
+	background: #ff0565;
+	
+  }
   
   
