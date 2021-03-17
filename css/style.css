@@ -708,6 +708,10 @@ height:460px;
 padding:8px 0
 }
 
+.cards li h3 {
+	font-size: 16px
+}
+
 .contact h2 {
 margin:10px 0 10px 55px
 }

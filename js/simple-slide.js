@@ -2,12 +2,12 @@ window.SimpleSlide = class { constructor(t) { this.config = { slide: t.slide, au
 
 new SimpleSlide({
 	slide: "feedbacks",
-	time: 5000,
+	time: 10000,
 	nav: true
 });
 
 new SimpleSlide({
 	slide: "curious",
-	time: 5000,
+	time: 10000,
 });
 
