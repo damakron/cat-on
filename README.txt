@@ -9,3 +9,8 @@ Dedico este website fictício ao meu aprendizado. A ideia inicial foi criar uma 
 
 ## Detalhes
 Olá, meu nome é Daniel. Sou apaixonado por tecnologia desde criança, em 2019 me mergulhei no desenvolvimento e me encontrei na area do front-end. Amo a arte, cores, detalhes e coisas criativas. Estarei a disposição de quem me procurar. 
+
+***
+
+## Web-Site
+Todo projeto em si foi desenvolvido em HTML5, CSS3, E JS. Confira o link [Cat ON](https://cat-on2.000webhostapp.com/)
